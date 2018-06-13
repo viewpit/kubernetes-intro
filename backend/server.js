@@ -9,7 +9,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/api/me', (request, response) => {
-	response.send('{"name": "Kenneth", "location": "Oslo"}');
+	response.send('{"name": "Kenneth", "location": "Oslo Test"}');
 	logger.info('Responded to GET request on /api/me')
 });
 
